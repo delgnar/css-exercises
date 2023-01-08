@@ -1,0 +1,24 @@
+/* style sheet */
+
+/* style observations: */
+/* 1, 3 and 5 all have a red background, same font type */
+/* 3 is larger font, that has a unique attribute */
+
+.odd {
+    background-color: hsl(10,80%,80%);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#font_36_blue {
+    font-size: 36px;
+    color: blue;
+}
+
+.font_24 {
+    font-size: 24px;
+}
+
+#green_bold {
+    background-color: hsl(120,100%,80%);
+    font-weight: 700;
+}
