@@ -22,6 +22,8 @@ body{
   font-size: 22px;
 }
 
+
+/* changed from class to ID selector to add priority */ 
 #confirm-button {
   background: green;
   color: white;
