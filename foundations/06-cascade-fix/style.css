@@ -1,3 +1,7 @@
+/* fix the styling to match by rearranging the blocks and 
+changing the references (don't change the styling or HTML) */
+
+
 body{
   font-family:Arial, Helvetica, sans-serif
 }
@@ -8,7 +12,8 @@ body{
   font-weight: 800;
 }
 
-.small-para {
+/* added .para in front */
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,7 +22,7 @@ body{
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +34,8 @@ body{
   font-size: 20px;
 }
 
-.child {
+/*added .text in front */
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
